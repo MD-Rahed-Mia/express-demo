@@ -8,7 +8,7 @@
 .shopping__card{
 	padding: 10px;
 	margin: 5px;
-	width: 45%;
+	width: 180px;
 	text-align: left;
 	background-color: whitesmoke;
 }
@@ -38,6 +38,16 @@
 }
 
 @media  screen and (max-width: 900px) {
+	.shopping{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		width: 100%;
+		
+	}
+	.shopping__card{
+		width: 40%;
+	}
 	
 }
 
