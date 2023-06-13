@@ -1,0 +1,29 @@
+.product-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: var(--padding);
+}
+.product__image{
+	flex: 1;
+}
+.product__image img{
+	width: 400px;
+	height: 400px;
+}
+
+.product__description{
+	flex: 2;
+	padding: 10px 10%;
+}
+.product__description p{
+	text-align: justify;
+	padding: 5px 0;
+}
+.product__btn-desc {
+	text-align: left;
+}
+
+
+
+

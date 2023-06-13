@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>e commerce demo preject Anisul Islam sir</title>
+    <meta name="description" content="Tech Express an e commerce website." />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="style/cart.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <nav>
+      <ul class="nav-upper">
+        <li class="nav__list">
+          <a href="index.html" class="nav__link">Home</a>
+        </li>
+        <li class="nav__list">
+          <a href="shopping.html" class="nav__link">Shopping</a>
+        </li>
+        <li class="nav__list">
+          <a href="offer.html" class="nav__link">Offer</a>
+        </li>
+        <li class="nav__list">
+          <a href="cart.html" class="nav__link">Cart</a>
+        </li>
+        <li class="nav__list">
+          <a href="register.html" class="nav__link">Join now</a>
+        </li>
+        <li class="nav__list">
+          <a href="profile.html" class="nav__link"
+            ><i class="fa-solid fa-user-tie profile__icon"></i
+          ></a>
+        </li>
+      </ul>
+
+      <ul class="nav-lower">
+        <li class="lower__nav__list">
+          <a href="#index.html" class="nav__link daraz__icon">Daraz</a>
+        </li>
+        <li class="lower__nav__list">
+          <a href="cart.html" class="nav__link">Cart 2 products : $140 USD.</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- 
+    cart starts from here -->
+
+    <div class="cart">
+      <div class="cart__section1">
+        <div class="cart__heading">
+          <div class="cart__heading-action flex-center-row">
+            <div>
+              <label for="select">
+                <input type="checkbox" name="select" id="select" />Select all
+              </label>
+            </div>
+            <div>
+              <i class="fa-solid fa-trash cart__delete-btn"></i>
+            </div>
+            <div>
+              <p>Shop more..</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="cart__product-desc">
+          <div class="product__image">
+            <img src="image/image4.png" alt="product image" />
+
+            <div>
+              <h3>Product name</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,
+                quae?
+              </p>
+            </div>
+          </div>
+
+          <div class="cart__action-item flex">
+            <div>
+              <i class="fa-solid fa-trash cart__delete-btn"></i>
+            </div>
+            <div>
+              <p style="font-weight: bolder">Price: $125 USD.</p>
+            </div>
+
+            <div>
+              <button>-</button>
+              <button>2</button>
+              <button>+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="cart__product-desc">
+          <div class="product__image">
+            <img src="image/image5.webp" alt="product image" />
+
+            <div>
+              <h3>Product name</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,
+                quae?
+              </p>
+            </div>
+          </div>
+
+          <div class="cart__action-item flex">
+            <div>
+              <i class="fa-solid fa-trash cart__delete-btn"></i>
+            </div>
+            <div>
+              <p style="font-weight: bolder">Price: $245 USD.</p>
+            </div>
+
+            <div>
+              <button>-</button>
+              <button>1</button>
+              <button>+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cart__section2">
+        <div class="paymet-amount">
+          <div class="payment__section1">
+            <h2>Payment Summary</h2>
+            <h3>Subtotal:</h3>
+            <h3>Shipping cost:</h3>
+            <hr />
+            <h3>Total payment:</h3>
+          </div>
+          <div class="payment__section2">
+            <h2>On USD</h2>
+            <h3>$123.20</h3>
+            <h3>$8.40</h3>
+            <hr />
+            <h3>$131.60</h3>
+          </div>
+        </div>
+
+        <div class="payment-getway">
+          <h1>Payment mathod</h1>
+
+          <div class="payment-option">
+            <div>
+              <i class="fa-brands fa-cc-visa visa"></i>
+              <span>Visa</span>
+            </div>
+
+            <div>
+              <i class="fa-brands fa-cc-mastercard"></i>
+              <span>Master card</span>
+            </div>
+
+            <div>
+              <i class="fa-brands fa-cc-paypal"></i>
+              <span>Paypal</span>
+            </div>
+            <div>
+              <i class="fa-solid fa-money-bill-1-wave"></i>
+              <span>Cash</span>
+            </div>
+            <div>
+              <i class="fa-brands fa-google-pay"></i>
+              <span>Google pay</span>
+            </div>
+            <div>
+              <i class="fa-brands fa-amazon-pay"></i>
+              <span>Amazon pay</span>
+            </div>
+          </div>
+        </div>
+
+        <button class="pay-now">Pay now</button>
+      </div>
+    </div>
+
+    <!-- 
+    cart ends from here -->
+
+    <!-- footer start from here -->
+
+    <footer>
+      <div class="footer-newslatter">
+        <p>Subscribe to newslatter:</p>
+        <input
+          type="email"
+          class="newslatter__input"
+          placeholder="Your email address"
+        />
+        <button class="newslatter__subscribe--btn">Subscribe</button>
+      </div>
+
+      <div class="footer-copyright">
+        <p>&copy;Copyright 2023 Daraz Express.All right reserved&trade;</p>
+      </div>
+    </footer>
+
+    <!-- footer end form here from here -->
+  </body>
+</html>
